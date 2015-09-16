@@ -17,6 +17,6 @@ add the following code where ever is required
     });
 ```
 
-##platform
+##Platform
 
     Only for Android
