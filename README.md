@@ -5,7 +5,7 @@ With this plugin you can trigger home button functionality by pressing back butt
 ## Using
 Add Plugin
 
-    $ cordova plugin add git@github.com:amitsinha559/cordova-plugin-back-as-home.git
+    $ cordova plugin add https://github.com/amitsinha559/cordova-plugin-back-as-home.git
 
 add the following code where ever is required
 
