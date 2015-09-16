@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="com.amitsinha.backashome"
+      version="0.1.0">
+
+    <name>Back As Home</name>
+    <keywords>ionic, back, home, cordova, android</keywords>
+
+    <js-module src="www/ionicHome.js" name="ionicHome">
+        <merges target="backAsHome" />
+    </js-module>
+
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="IonicHome">
+                <param name="android-package" value="com.amitsinha.backashome.IonicHome"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/IonicHome.java" target-dir="src/com/amitsinha/backashome" />
+
+    </platform>
+
+</plugin>
