@@ -1,24 +1,20 @@
 # Cordova Plugin - Back As Home
 
-With this plugin you can access hardware home button by pressing back button.
+With this plugin you can trigger home button functionality by pressing back button. Means you can minimize the app by pressing back button
 
 ## Using
 Add Plugin
 
     $ cordova plugin add git@github.com:amitsinha559/cordova-plugin-back-as-home.git
 
-add the following code inside `onDeviceReady`
+add the following code where ever is required
 
 ```js
-    var success = function(message) {
-        alert(message);
-    }
-
-    var failure = function() {
-        alert("Error calling Hello Plugin");
-    }
-
-    hello.greet("World", success, failure);
+    backAsHome.trigger(function(){
+        console.info("Success");
+    }, function(){
+        console.error("Error");
+    });
 ```
 
 ##platform
