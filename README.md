@@ -11,9 +11,9 @@ add the following code where ever is required
 
 ```js
     backAsHome.trigger(function(){
-        console.info("Success");
+        console.log("Success");
     }, function(){
-        console.error("Error");
+        console.log("Error");
     });
 ```
 
