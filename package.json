@@ -1,13 +1,13 @@
 {
   "name": "cordova-plugin-back-as-home",
   "version": "1.0.0",
-  "description": "Android back button function as home button",
+  "description": "Cordova Android back-as-home Plugin",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rlindgren/cordova-plugin-back-as-home.git"
+    "url": "git+https://github.com/amitsinha559/cordova-plugin-back-as-home.git"
   },
   "keywords": [
     "cordova",
@@ -19,9 +19,9 @@
   "author": "Ahmit Sinha",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rlindgren/cordova-plugin-back-as-home/issues"
+    "url": "https://github.com/amitsinha559/cordova-plugin-back-as-home/issues"
   },
-  "homepage": "https://github.com/rlindgren/cordova-plugin-back-as-home#readme",
+  "homepage": "https://github.com/amitsinha559/cordova-plugin-back-as-home#readme",
   "license": "Apache-2.0",
   "engines": {
     "cordovaDependencies": {
